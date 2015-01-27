@@ -2,9 +2,9 @@ $:.push File.expand_path("../lib", __FILE__)
 require File.expand_path('../lib/jasmine-sinon-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Mihai Tarnovan", "Peter Hamilton","Brendan Keogh"
+  gem.authors       = ["Mihai Tarnovan", "Peter Hamilton","Brendan Keogh"]
   gem.email         = ["bkeogh123@gmail.com"]
-  gem.summary       = %q{jasmine-sinon.js matchers via Rails 3.1+ asset pipeline}
+  gem.summary       = %q{jasmine-sinon.js matchers via Rails 3.2+ asset pipeline}
   gem.homepage      = "https://github.com/beekermememe/jasmine-sinon-rails"
   
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
