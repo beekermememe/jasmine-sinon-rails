@@ -1,6 +1,6 @@
 module Jasmine
   module Sinon
-    module Rails
+    module Railsbk
       class Engine < ::Rails::Engine
         # making class enables assets pipeline 
       end
